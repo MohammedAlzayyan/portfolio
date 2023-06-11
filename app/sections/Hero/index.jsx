@@ -36,10 +36,10 @@ const Hero = () => {
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
         <div className="mx-auto max-w-2xl lg:mx-0 flex flex-col gap-5">
           <div className="space-y-2">
-            <h3 className="text-2xl font-semibold">Hello, It's Me</h3>
+            <h3 className="text-2xl font-semibold">Hello, It s Me</h3>
             <h1 className="text-4xl font-bold">Mohammed Alzayyan</h1>
             <h3 className="text-2xl font-semibold">
-              And I'm a Frontend Developer
+              And I m a Frontend Developer
             </h3>
           </div>
 
