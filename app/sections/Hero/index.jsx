@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative isolate ">
+    <div className="relative isolate" id="home">
       {/* <svg
         className="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
         aria-hidden="true"
@@ -34,12 +34,12 @@ const Hero = () => {
         />
       </svg> */}
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
-        <div className="mx-auto max-w-2xl lg:mx-0 flex flex-col gap-5">
+        <div className="mx-auto max-w-2xl lg:mx-0 flex flex-col gap-5 text-white">
           <div className="space-y-2">
             <h3 className="text-2xl font-semibold">Hello, It s Me</h3>
             <h1 className="text-4xl font-bold">Mohammed Alzayyan</h1>
             <h3 className="text-2xl font-semibold">
-              And I m a Frontend Developer
+              And I m a <span className="text-bright">Frontend Developer</span>
             </h3>
           </div>
 
@@ -54,7 +54,7 @@ const Hero = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-400 hover:text-gray-500"
+                className="text-gray-400 hover:text-bright transition-all duration-300 ease-in-out"
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -64,7 +64,7 @@ const Hero = () => {
 
           <a
             href="#"
-            className="w-fit rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            className="w-fit rounded-full bg-bright px-4 py-2.5 text-base font-medium text-black-dark shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             Get started
           </a>

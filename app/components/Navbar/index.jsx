@@ -1,16 +1,35 @@
-import React from "react";
+"use client";
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
 
 const navigation = [
-  { name: "Home", href: "#" },
-  { name: "About", href: "#" },
-  { name: "Services", href: "#", for: "our-services" },
-  { name: "Portfolio", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Home", href: "#home" },
+  { name: "About", href: "#about" },
+  { name: "Services", href: "#our-services" },
+  { name: "Portfolio", href: "#portfolio" },
+  { name: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
+  const [backgroundColor, setBackgroundColor] = useState(false);
+
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 40) {
+      setBackgroundColor(true);
+    } else {
+      setBackgroundColor(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", changeNavbarColor);
+  }, []);
+
   return (
-    <header className="absolute inset-x-0 top-0 z-50">
+    <header
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-100 ${
+        backgroundColor ? "bg-black-dark" : ""
+      } `}
+    >
       <nav
         className="flex items-center justify-between p-6 lg:px-32"
         aria-label="Global"
@@ -35,16 +54,15 @@ const Navbar = () => {
             {/* <Bars3Icon className="h-6 w-6" aria-hidden="true" /> */}
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex lg:gap-x-12 ">
           {navigation.map((item) => (
-            <a
+            <Link
               key={item.name}
               href={item.href}
-              for={item.for}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-base scroll-auto font-semibold leading-6 text-white hover:text-bright transition-all duration-100"
             >
               {item.name}
-            </a>
+            </Link>
           ))}
         </div>
       </nav>

@@ -2,8 +2,8 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="flex gap-5 justify-center">
-      <div className="flex-1 mt-16 sm:mt-24 lg:mt-0 bg-red-300">
+    <div className="flex gap-5 justify-center" id="about">
+      <div className="flex-1 mt-16 sm:mt-24 lg:mt-0">
         <svg
           viewBox="0 0 366 729"
           role="img"
@@ -36,9 +36,11 @@ const AboutMe = () => {
           </foreignObject>
         </svg>
       </div>
-      <div className="flex-1 flex flex-col gap-2 pt-20 bg-blue-300 space-y-7">
+      <div className="flex-1 flex flex-col gap-2 pt-20 space-y-7 text-white">
         <div className="space-y-2">
-          <h3 className="text-4xl font-bold">About Me</h3>
+          <h3 className="text-4xl font-bold">
+            About <span className="text-bright">Me</span>
+          </h3>
           <h3 className="text-xl font-semibold">Frontend Developer!</h3>
         </div>
 
@@ -51,7 +53,7 @@ const AboutMe = () => {
 
         <a
           href="#"
-          className="w-fit rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          className="w-fit rounded-full bg-bright px-4 py-2.5 text-base font-medium text-black-dark shadow-sm hover:bg-[#3AEEF5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
           Read More
         </a>

@@ -4,13 +4,13 @@ import { posts } from "@/app/data";
 
 const OurServices = () => {
   return (
-    <div className="bg-white py-24 sm:py-32" id="our-services">
+    <div className="py-24 sm:py-32 text-white" id="our-services">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
             Our Services
           </h2>
-          <p className="mt-2 text-lg leading-8 text-gray-600">
+          <p className="mt-2 text-lg leading-8">
             Learn how to grow your business with our expert advice.
           </p>
         </div>
