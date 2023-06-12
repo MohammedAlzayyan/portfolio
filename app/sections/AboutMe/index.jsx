@@ -53,7 +53,7 @@ const AboutMe = () => {
 
         <a
           href="#"
-          className="w-fit rounded-full bg-bright px-4 py-2.5 text-base font-medium text-black-dark shadow-sm hover:bg-[#3AEEF5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          className="w-fit rounded-full bg-bright px-4 py-2.5 text-base font-medium text-black-dark hover:shadow-[0px_2px_10px_1px_rgba(9,234,242)] transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
           Read More
         </a>
