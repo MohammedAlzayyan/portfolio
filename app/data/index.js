@@ -189,7 +189,7 @@ export const myProjects = [
           'https://clickup.com/blog/wp-content/uploads/2019/01/to-do-list-apps.png',
       },
       {
-        title: 'Todo App',
+        title: 'My Bag',
         href: 'https://incredible-cannoli-428d3c.netlify.app/',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         imageUrl:
