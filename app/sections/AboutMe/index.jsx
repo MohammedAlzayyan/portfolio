@@ -7,7 +7,7 @@ const AboutMe = () => {
         <svg
           viewBox="0 0 366 729"
           role="img"
-          className="mx-auto w-[22.875rem] max-w-full drop-shadow-xl"
+          className="mx-auto w-[17rem] max-w-full drop-shadow-xl"
         >
           <title>App screenshot</title>
           <defs>
@@ -44,15 +44,21 @@ const AboutMe = () => {
           <h3 className="text-xl font-semibold">Frontend Developer!</h3>
         </div>
 
-        <p className="w-[80%]">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
-          exercitationem explicabo ex quia sapiente dignissimos cupiditate animi
-          voluptates at. Rerum exercitationem explicabo ex quia sapiente
-          dignissimos cupiditate animi voluptates at.
-        </p>
+        <div className="space-y-3">
+          <p className="w-[80%]">
+            My name is Mohammed, I recently graduated with a B.Sc in Computer
+            Engineering. I have very good knowledge in web development, and I
+            have trained well to improve my web development capabilities.
+          </p>
+          <p className="w-[80%]">
+            I have very good knowledge of some programming languages, including:
+            Java - JavaScript - Python - ... etc.
+          </p>
+        </div>
 
         <a
-          href="#"
+          href="https://drive.google.com/file/d/1nIodH9DcRtiJt7b2of0pyakbTaHM2ti-/view?usp=sharing"
+          target="_blank"
           className="w-fit rounded-full bg-bright px-4 py-2.5 text-base font-medium text-black-dark hover:shadow-[0px_2px_10px_1px_rgba(9,234,242)] transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
           Read More

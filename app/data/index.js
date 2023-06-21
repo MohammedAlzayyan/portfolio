@@ -75,12 +75,12 @@ export const navigation = {
 export const services = [
   {
     id: 1,
-    title: 'Web Development',
+    title: 'HTML & CSS & JS',
     href: '#',
     description:
       'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
     imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+      'https://blog.logrocket.com/wp-content/uploads/2021/01/js-css-html.png',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -105,12 +105,12 @@ export const services = [
   },
   {
     id: 2,
-    title: 'Graphic Design',
+    title: 'React.js',
     href: '#',
     description:
       'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
     imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+      'https://www.pragimtech.com/wp-content/uploads/2021/03/ReactJS.jpg',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -135,12 +135,12 @@ export const services = [
   },
   {
     id: 3,
-    title: 'Digital Marketing',
+    title: 'Next.js',
     href: '#',
     description:
       'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
     imageUrl:
-      'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
+      'https://codevoweb.com/wp-content/uploads/2023/03/Setup-and-Use-NextAuth.js-in-Next.js-13-App-Directory.webp',
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -175,28 +175,25 @@ export const myProjects = [
     active: true,
     projects: [
       {
-        title: 'Project 1',
-        href: '#',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. ',
+        title: 'Center Eduaction',
+        href: 'https://github.com/MohammedAlzayyan/Center-Education',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         imageUrl:
-          'https://images.unsplash.com/photo-1576936422505-18d321d54d40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+          'https://www.simplilearn.com/ice9/free_resources_article_thumb/full_front_back.jpg',
       },
       {
-        title: 'Project 2',
-        href: '#',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. ',
+        title: 'Todo App',
+        href: 'https://dreamy-pie-95c639.netlify.app/',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         imageUrl:
-          'https://images.unsplash.com/photo-1685558589023-3297b012d8bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+          'https://clickup.com/blog/wp-content/uploads/2019/01/to-do-list-apps.png',
       },
       {
-        title: 'Project 3',
-        href: '#',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. ',
+        title: 'Todo App',
+        href: 'https://incredible-cannoli-428d3c.netlify.app/',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         imageUrl:
-          'https://images.unsplash.com/photo-1685558593626-686907d7ee4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUyb6OkjYxEqwIwJaeS68dOcHTtR6j2iSF7Q&usqp=CAU',
       },
     ],
   },
@@ -207,28 +204,18 @@ export const myProjects = [
     active: false,
     projects: [
       {
-        title: 'Project next js 1',
+        title: 'Landing Page',
         href: '#',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. ',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         imageUrl:
           'https://images.unsplash.com/photo-1617042375876-a13e36732a04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
       },
       {
-        title: 'Project next js 2',
-        href: '#',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. ',
+        title: 'Chat App',
+        href: 'https://funny-sable-3724bf.netlify.app/',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         imageUrl:
-          'https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
-      },
-      {
-        title: 'Project next js 3',
-        href: '#',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora expedita dicta totam aspernatur doloremque. ',
-        imageUrl:
-          'https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+          'https://static.wixstatic.com/media/713b90_7841ba78e810446f8765776b69ee76e3~mv2.png',
       },
     ],
   },

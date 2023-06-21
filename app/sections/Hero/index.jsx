@@ -43,11 +43,10 @@ const Hero = () => {
             </h3>
           </div>
 
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
-            exercitationem explicabo ex quia sapiente dignissimos cupiditate
-            animi voluptates at.
-          </p>
+          <span className="text-lg">
+            I'm Mohammed, a computer engineer and specializes in Front End
+            Development using React Js 👨‍💻
+          </span>
 
           <div className="flex gap-3">
             {navigation.social.map((item) => (
@@ -75,7 +74,7 @@ const Hero = () => {
           <svg
             viewBox="0 0 366 729"
             role="img"
-            className="mx-auto w-[22.875rem] max-w-full drop-shadow-xl"
+            className="mx-auto w-[17rem] max-w-full drop-shadow-xl"
           >
             <title>App screenshot</title>
             <defs>

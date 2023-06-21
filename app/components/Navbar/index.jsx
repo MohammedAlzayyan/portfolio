@@ -31,15 +31,15 @@ const Navbar = () => {
       } `}
     >
       <nav
-        className="flex items-center justify-between p-6 lg:px-32"
+        className="flex items-center justify-between px-6 py-3 lg:px-32"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+              className="h-12 w-auto"
+              src="https://cdn-icons-png.flaticon.com/512/1803/1803671.png"
               alt=""
             />
           </a>
