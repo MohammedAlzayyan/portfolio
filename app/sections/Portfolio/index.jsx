@@ -52,11 +52,8 @@ const Portfolio = () => {
         className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-3"
       >
         {selectedType.projects.map((project) => (
-          <a href={project.href} target="_blank">
-            <li
-              key={project.title}
-              className="relative isolate group flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-24 cursor-pointer"
-            >
+          <a href={project.href} target="_blank" key={project.title}>
+            <li className="relative isolate group flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-24 cursor-pointer">
               <img
                 className="absolute inset-0 -z-10 h-full w-full object-cover"
                 src={project.imageUrl}
