@@ -44,7 +44,7 @@ const Hero = () => {
           </div>
 
           <span className="text-lg">
-            I'm Mohammed, a computer engineer and specializes in Front End
+            I&apos;m Mohammed, a computer engineer and specializes in Front End
             Development using React Js 👨‍💻
           </span>
 
