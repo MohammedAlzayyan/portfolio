@@ -1,13 +1,14 @@
 "use client";
-import Link from "next/link";
+// import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-scroll";
 
 const navigation = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Services", href: "#our-services" },
-  { name: "Portfolio", href: "#portfolio" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "hero" },
+  { name: "About", href: "about" },
+  { name: "Services", href: "our-services" },
+  { name: "Portfolio", href: "portfolio" },
+  { name: "Contact", href: "contact" },
 ];
 
 const Navbar = () => {
@@ -31,15 +32,16 @@ const Navbar = () => {
       } `}
     >
       <nav
-        className="flex items-center justify-between px-6 py-3 lg:px-32"
+        className="flex items-center justify-between px-6 py-3 lg:px-32 mx-auto max-w-7xl"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
+            {/* <User /> */}
             <img
               className="h-12 w-auto"
-              src="https://cdn-icons-png.flaticon.com/512/1803/1803671.png"
+              src="https://www.pngall.com/wp-content/uploads/5/Profile-Male-PNG.png"
               alt=""
             />
           </a>
@@ -58,8 +60,12 @@ const Navbar = () => {
           {navigation.map((item) => (
             <Link
               key={item.name}
-              href={item.href}
-              className="text-base scroll-auto font-semibold leading-6 text-white hover:text-bright transition-all duration-100"
+              to={item.href}
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="text-base cursor-pointer font-semibold leading-6 text-white hover:text-bright transition-all duration-100"
             >
               {item.name}
             </Link>
